@@ -1,0 +1,564 @@
+ 
+body{
+    padding:0;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    gap:3px;
+  }
+    /* nav bar related*/
+  .navbar{
+   position: fixed;
+   width: 100%;
+   background-color:rgb(16, 151, 230);
+    }
+    .title h2 {
+        margin:  2% 2%;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 28px;
+        color:rgb(255, 255, 255);
+        letter-spacing: 3px;
+        }
+.title :hover{
+          color:rgb(255, 61, 255);
+       
+}
+    .navlinks ul{
+    list-style: none;
+    display:flex;
+    justify-content: center;
+    letter-spacing: 5px;
+    flex-wrap: wrap;
+    margin-top: auto;
+     }
+      .navlinks ul li{
+        display: inline;
+        margin:0 12px;
+        text-decoration: none;
+        color:rgb(241, 237, 22);
+        font-weight:bolder;
+        font-size: 21px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      
+        }
+    
+    .navlinks ul li:hover{
+        color: rgb(0, 255, 128);
+    }
+
+      a{
+        text-decoration: none;
+    }
+
+    .navlinks  a:hover{
+        color:rgb(255, 255, 255) ;
+    }
+    /*Home Links*/
+    .home-links ul  {
+      list-style-type: none;
+      margin-top: 7%;
+      display: flex;
+      flex-direction: column;
+      gap:9px;
+      letter-spacing: 1px;
+      }
+     .home-links ul li  {
+      color:black;
+      padding: 9px 9px;
+      
+      border: 1px solid rgb(24, 20, 20);
+      border-radius: 18px;
+     text-align: center;
+      font-size:21px;
+      font-family: 'Mingzat', sans-serif;
+      background-color:white;
+      font-weight: 5%;
+     
+        }
+      .home-links ul li:hover{
+            background-color: black;
+            color:white;
+            }
+            /*content*/
+            .content{
+              width: 120vh; 
+              margin-top: 10%;
+              margin-left:18%;
+              background-color:#fffff0;;
+              display: flex;
+              flex-direction: column;
+             }
+            .content p{
+                color:rgb(0, 0, 0);
+                margin: 5% 9%;
+                font-size: 21px;
+                padding: 3px;
+                letter-spacing: 1px;
+                font-weight: 300;
+                font-family: 'Dosis', sans-serif;
+                line-height:55px;
+                word-spacing: 9px;
+                width:90%;
+        }
+        .menu{
+          font-family: Arial;
+          font-size: 21px;
+          margin: auto 90%;
+          position: relative;
+         top: 30px;
+         display: none;
+        }
+    
+              label{
+                line-height: 3px;
+            }
+
+             .label{
+                font-size: 18px;
+                margin: 5% 15%;
+                font-size: 19px;
+                 }
+
+               .content h4{
+                color:rgb(80, 235, 183);
+                font-size: 25px;
+                margin-bottom: 3px;
+                margin: 5% 9%;
+                 }
+
+              .content h3{
+                color: rgb(67, 73, 156);
+                font-size:30px;
+                margin-left:15%;
+                margin-top: 75px;
+                margin-bottom: 5px;
+              }
+               .content ul{
+               list-style-type: none;
+               margin-top:5% 9%;
+               display: flex;
+               flex-direction: column;
+               }
+             .content ul li{
+                padding:3px;
+                font-size: 21px;
+                font-family: 'Dosis', sans-serif;
+                line-height:55px;
+                word-spacing: 5px;
+               }
+         .content i{
+                color:rgb(20, 129, 29);
+                font-weight:bold;
+              }
+            .next a{
+                float:right;
+                font-size: 20px;
+                color:rgb(255, 255, 255);
+                border: 3px solid rgb(255, 255, 255);
+                padding:3px;   
+                font-weight: bolder;
+                background-color:rgb(0, 217, 255);
+                border-radius: 18px;
+                font-family: 'Dosis', sans-serif;
+                position: relative;
+                }
+            .prev a{
+              float:left;
+              font-size: 20px;
+                color:rgb(255, 255, 255);
+                border: 3px solid rgb(255, 255, 255);
+                padding:3px;
+                font-weight: bolder;
+                border-radius:18px;
+                background-color:rgb(0, 217, 255);
+                font-family: 'Dosis', sans-serif;
+                position: relative;
+               }
+             .content ol{
+            margin:5% 9%;
+            background-color: aliceblue;
+                  }
+         .content ol li{
+                padding:3px;
+                font-size: 21px;
+                font-family: 'Dosis', sans-serif;
+                line-height:55px;
+                word-spacing: 9px;
+                font-weight: bold;
+                color:rgb(67, 139, 233);
+                letter-spacing: 3px;
+            }
+            .content dl{
+                margin: 5% 9%;
+                   }
+                .content   dt{
+                    padding:3px;
+                    font-size: 21px;
+                    font-family: 'Dosis', sans-serif;
+                    line-height:45px;
+                    word-spacing: 5px;
+                    color:rgb(255, 0, 0);
+                    }
+                .content    dd{
+                    padding:3px;
+                    font-size: 21px;
+                    font-family: 'Dosis', sans-serif;
+                    line-height:39px;
+                    word-spacing: 5px;
+                    margin-bottom:20px;
+                    }
+               .heading {
+                  margin-left: 50%;
+                }
+               .heading h5{
+                    font-size: 21px;
+                    margin-left: 10%;
+                    margin-bottom:-20px;
+                }
+             .heading  p{
+                    margin-bottom:-30px;
+                }
+                /*table*/
+                .table{
+                margin:5% 9%;
+                     }
+
+                table{
+                border-collapse: collapse;
+                }
+
+                tr{
+                border:1px solid black;
+                text-align: left;
+                border-bottom: 1px solid gray;
+                }
+
+               th{
+                background-color: aquamarine;
+                padding: 10px 10px;
+                font-weight: bold;
+                font-family: 'Mingzat', sans-serif;
+                font-size: 1.3em;
+                  }
+
+                  td{ 
+                    text-align: left;
+                      padding: 7px 10px;
+                    font-size: 1.3em;
+                    font-family: 'Dosis', sans-serif;
+                 }
+                 
+                  .navlinks {
+                    animation: transitionIn 0.65s;
+                  }
+                  
+                  /* Animation*/
+                  @keyframes transitionIn {
+                    from {
+                       opacity : 0;
+                       transform: rotateX(-10deg)
+                    }
+                    to {
+                        opacity : 1;
+                        transform: rotateX(0)
+                    }
+                }
+           
+                     /*punctuation marks*/
+                      .content .pun {
+                        color:rgb(128, 8, 175);
+                     }
+                     .content h2{
+                      color:rgb(255, 75, 144);
+                      margin: 15% 9%;
+                     letter-spacing: 1px;
+                     font-family: 'Dosis', sans-serif;
+                     margin-bottom:3%;
+                     }
+                 u{
+                  color: black;
+                 }
+                 .content ol h2{
+                  color:rgb(48, 82, 196) ;
+                 }
+                 footer{
+                  width:100%;
+                  position:100%;
+                  background-color: black;
+                  margin-top: auto;
+                  margin-bottom: auto;
+                 }
+                 footer a{
+                  color: #fffff0;
+                   
+                  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                 }
+          footer .fnavlinks ul{
+          float: left;
+          color: #fffff0;
+          margin-left: -1px;
+          margin-top: auto;
+          list-style: none;
+          display: flex;
+          gap:9px;
+        flex-direction: row;
+            }
+          footer .fnavlinks ul li{
+          color: #fffff0;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          padding:0 90px;
+          letter-spacing: 3px;
+         }
+         .content .idiom{
+          color:rgb(60, 183, 224);
+          letter-spacing: 3px;
+         margin-bottom: -3%;
+         }
+              /*Responsive*/
+              @media screen and (max-width: 600px){
+                body{
+                padding:0;
+                margin:0;
+                display: flex;
+                flex-direction: column;
+                overflow: scroll;
+                }
+                  /* nav bar related*/
+                .navbar{
+                 position: fixed;
+                 width: 100%;
+                 background-color:rgb(16, 151, 230);
+               
+                  }
+                  .title h2{
+                   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                    font-size: 25px;
+                    color:rgb(255, 255, 255);
+                     display: flex;
+                     justify-content: center;  
+                     letter-spacing: 3px;
+                    }
+              .title :hover{
+                background-color:rgb(194, 78, 155);
+              }
+              .navlinks{
+                display: none;
+                   }
+                  .home-links ul  {
+                    list-style-type: none;
+                    margin-top: 18%;
+                    display: flex;
+                    flex-direction: column;
+                    gap:9px;
+                    justify-content: center;
+                    }
+                   .home-links ul li  {
+                    color:black;
+                    padding: 6px 6px;
+                    border: 1px solid rgb(24, 20, 20);
+                    border-radius: 18px;
+                    text-align: center;
+                    font-size:18px;
+                    font-family: 'Mingzat', sans-serif;
+                    background-color:white;
+                    font-weight: 5%;
+              }
+                    .home-links ul li:hover{
+                          background-color: black;
+                          color:white;
+                          }
+                          /*content*/
+                          .content{
+                          margin-top:auto;
+                          width: 100%; 
+                          margin-left: 3px;
+                          
+                          }
+                          .menu{
+                          font-family: Arial;
+                          font-size: 21px;
+                          justify-content: center;
+                          position: relative;
+                          top: 1px;
+                          display: flex;
+                          right: 40%;
+                          }
+                          .content p{
+                              color:rgb(0, 0, 0);
+                              margin: 5% 9%;
+                              font-size: 18px;
+                              letter-spacing: 1px;
+                              font-weight: 300;
+                              font-family: 'Dosis', sans-serif;
+                              line-height:45px;
+                              word-spacing: 9px;
+                           }
+                           .content h4{
+                            color:rgb(80, 235, 183);
+                            font-size: 21px;
+                            margin-bottom: 3px;
+                            margin: 5% 9%;
+                             }
+            
+                          .content h3{
+                            color: rgb(67, 73, 156);
+                            font-size:21px;
+                            margin-left:15%;
+                            margin-top: 75px;
+                            margin-bottom: 5px;
+                          }
+                           .content ul{
+                           list-style-type: none;
+                           margin-top:5% 9%;
+                           display: flex;
+                           flex-direction: column;
+                           }
+                         .content ul li{
+                            font-size: 21px;
+                            font-family: 'Dosis', sans-serif;
+                            line-height:65px;
+                            word-spacing: 5px;
+                           }
+                     .content i{
+                            color:rgb(20, 129, 29);
+                            font-weight:bold;
+                          }
+                        .next a{
+                            margin-left:right;
+                            font-size: 20px;
+                            color:rgb(255, 255, 255);
+                            border: 3px solid rgb(255, 255, 255);
+                            font-weight: bolder;
+                            background-color:rgb(0, 217, 255);
+                            border-radius: 18px;
+                            font-family: 'Dosis', sans-serif;
+                            position: relative;
+                            }
+                        .prev a{
+                          float:left;
+                          font-size: 18px;
+                            color:rgb(255, 255, 255);
+                            border: 3px solid rgb(255, 255, 255);
+                              font-weight: bolder;
+                            border-radius:18px;
+                            background-color:rgb(0, 217, 255);
+                            font-family: 'Dosis', sans-serif;
+                            position: relative;
+                           }
+                         .content ol{
+                        margin:5% 9%;
+                        background-color: aliceblue;
+                              }
+                     .content ol li{
+                           font-size: 18px;
+                            font-family: 'Dosis', sans-serif;
+                            line-height:60px;
+                            word-spacing: 9px;
+                            font-weight: bold;
+                            color:rgb(67, 139, 233);
+                            letter-spacing: 3px;
+                        }
+                        .content dl{
+                          margin: 5% 9%;
+                             }
+                          .content   dt{
+                              padding:3px;
+                              font-size: 25px;
+                              font-family: 'Dosis', sans-serif;
+                              line-height:60px;
+                              word-spacing: 5px;
+                              color:rgb(255, 0, 0);
+                              }
+                          .content  dd{
+                             font-size: 25px;
+                              font-family: 'Dosis', sans-serif;
+                              line-height:39px;
+                              word-spacing: 5px;
+                              margin-bottom:20px;
+                              }
+                         .heading {
+                            margin-left: 50%;
+                          }
+                         .heading h5{
+                              font-size: 25px;
+                              margin-left: 10%;
+                              margin-bottom:-50px;
+                          }
+                       .heading  p{
+                              margin-bottom:-30px;
+                          }
+                          /*table*/
+                          .table{
+                          margin:5% 9%;
+                               }
+          
+                          table{
+                          border-collapse: collapse;
+                          }
+          
+                          tr{
+                          border:1px solid black;
+                          text-align: left;
+                          border-bottom: 1px solid gray;
+                          }
+          
+                         th{
+                          background-color: aquamarine;
+                          padding: 10px 10px;
+                          font-weight: bold;
+                          font-family: 'Mingzat', sans-serif;
+                          font-size: 1.3em;
+                            }
+          
+                            td{ 
+                              text-align: left;
+                                padding: 7px 10px;
+                              font-size: 1.3em;
+                              font-family: 'Dosis', sans-serif;
+                           }
+                           
+                            .navlinks {
+                              animation: transitionIn 0.65s;
+                            }
+                            footer{
+                              width:100%;
+                              position:100%;
+                              background-color: black;
+                              margin-top: auto;
+                              margin-bottom: auto;
+                             }
+                             footer a{
+                              color: #fffff0;
+                            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                             }
+                      footer .fnavlinks ul{
+                      float: left;
+                      color: #fffff0;
+                      margin-left: -1px;
+                      margin-top: auto;
+                      list-style: none;
+                      display: flex;
+                      flex-direction:column;
+                      letter-spacing: 3px;
+                        }
+                      footer .fnavlinks ul li{
+                      color: #fffff0;
+                      font-family: Georgia, 'Times New Roman', Times, serif;
+                    padding: 9px;
+                     }
+                     .content .idiom{
+                      color:rgb(60, 183, 224);
+                      letter-spacing: 3px;
+                      margin-bottom: -3%;
+                     }
+                          img{
+                            width: 200px;
+                            height:150px;
+                           }
+                            .image{
+                            margin-left: -30%;
+                            }
+                            hr{
+                              display: none;
+                            }
+                        }
